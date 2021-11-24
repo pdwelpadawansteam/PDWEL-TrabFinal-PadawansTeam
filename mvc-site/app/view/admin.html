@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+</head>
+<body>
+<div class="container text-center">
+    <br>
+    <h1 class="text-center my-5">Criar Publicação</h1>
+    <p>Deseja criar publicações?</p>
+    <a class="btn btn-info mb-3" href="http://localhost/mvc-site/?pagina=admin&metodo=create">Criar publicação</a>
+    <hr>
+    <div class="row">
+    <div class="col-md-12">
+        <h1 class="text-center my-3">Gerenciador de conteúdo</h1>
+    </div>
+    {% if publicacoes == false %}
+      <p>Não existem publicações ainda...</p>
+    {% else %}
+    
+    <div class="col-md-12">
+        <table class="table">
+            <thead>
+              <tr class="table-dark">
+                <th scope="col">ID</th>
+                <th scope="col">Título</th>
+                <th scope="col">Alterar</th>
+                <th scope="col">Deletar</th>
+              </tr>
+            </thead>
+            {% for publicacao in publicacoes %}
+            <tbody>
+              <tr>
+                <th scope="row">{{publicacao.idpublicacao}}</th>
+                <td>{{publicacao.titulo}}</td>
+                <td><a class="link-info" href="http://localhost/mvc-site/?pagina=admin&metodo=alter&id={{publicacao.idpublicacao}}">Alterar</a></td>
+                <td><a class="link-info" href="http://localhost/mvc-site/?pagina=admin&metodo=delete&id={{publicacao.idpublicacao}}">Deletar</a></td>
+              </tr>
+            </tbody>
+            {% endfor %}
+          </table>
+    </div>
+    </div>
+    {% endif %}
+</div>
+
+<!-- <table border="2">
+    <tr>
+        <th>ID</th>
+        <th>Tìtulo</th>
+        <th>Alter</th>
+        <th>Delete</th>
+    </tr>
+
+    {% for publicacao in publicacoes %}
+    <tr>
+        <th>{{publicacao.idpublicacao}}</th>
+        <th>{{publicacao.titulo}}</th>
+        <th><a href="http://localhost/mvc-site/?pagina=admin&metodo=alter&id={{publicacao.idpublicacao}}">Alter</a></th>
+        <th><a href="http://localhost/mvc-site/?pagina=admin&metodo=delete&id={{publicacao.idpublicacao}}">Delete</a></th>
+    </tr>
+    {% endfor %}
+</table> -->
+</body>
+</html>

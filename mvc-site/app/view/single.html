@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publicação</title>
+</head>
+<body>
+
+    <div class="container">
+        <br><br>
+        <h1 class="title text-center my-5">{{titulo}}</h1>
+        <hr>
+        <div class="row text-center">
+            <div class="col-md-12">
+                <p>{{descricao}}</p>
+            </div>
+            <hr>
+        </div>
+        <div class="row">
+            <h1 class="title text-center my-5">Comentários</h1>
+            {% if comentarios == false %}
+            <p class="text-center"> Esta publicação ainda não possui comentários...</p>
+            <hr>
+        {% else %}
+            {% for comentario in comentarios %}
+                <h3 class="text-center">{{comentario.nomeusuario}}</h3>
+                <p class="text-center">{{comentario.comentario}}</p>
+                <hr>
+            {% endfor %}
+        {% endif %}
+        </div>
+        <div class="row">
+            <h1 class="title text-center my-5">Comentar</h1>
+            <form method="post" action="http://localhost/mvc-site/?pagina=publicacao&metodo=addComentario">
+                <textarea class="form-control mb-3" name="nomeusuario" cols="8" rows="1" placeholder="Digite o nome do usuário."></textarea>
+                <textarea class="form-control mb-3" name="comentario" cols="8" rows="8" placeholder="Digite o comentário.."></textarea>
+                <input type="hidden" name="idpublicacao" value = "{{idpublicacao}}">
+                <div class="text-center">
+                 <input  class="btn btn-info mb-4" type="submit" value ="Comentar">
+                </div>
+            </form>
+        </div>
+
+    
+</body>
+</html>
+

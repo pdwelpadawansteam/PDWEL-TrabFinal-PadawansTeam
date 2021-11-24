@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova publicação</title>
+</head>
+
+<body>
+    <div class="container">
+        <br><br>
+        <h1 class="text-center my-5">Nova Publicação</h1>
+        <div class="row">
+            <div class="col-md-2">
+            </div>
+            <div class="col-md-8">
+                <form method="post" action="?pagina=admin&metodo=insert">
+                        <label for="autoSizingInputGroup" class="form-label">Título</label>
+                        <input name="titulo"type="text" class="form-control" id="autoSizingInputGroup"
+                            placeholder="Título da Publicação">
+                        <label for="exampleFormControlTextarea1" class="form-label">Conteúdo</label>
+                        <textarea class="form-control mb-3" name="content" cols="10" rows="10" placeholder="Digite o conteúdo da publicação..."></textarea>
+                        
+                        <div class="text-center">
+                         <input  class="btn btn-info mb-4" type="submit" value ="Criar publicação">
+                        </div>
+                </form>
+            </div>
+
+           
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
