@@ -67,6 +67,12 @@ Caso não tenha sido feita nenhuma alteração na instalação na distribuição
 
 Após a execução do XAMPP, é preciso habilitar todos os servidores clicando em "Start All", como na imagem a seguir:
 
+<h4> Windows </h4>
+
+<img width="600px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/xampp_windows.png" />
+
+<h4> Linux </h4>
+
 <img width="600px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/xampp-funcionando.png" />
 
 
@@ -76,3 +82,27 @@ Após a execução do XAMPP, é preciso habilitar todos os servidores clicando e
 Depois de ter realizado todos os passos anteriores, para verificar o funcionamento da plataforma, basta acessar a seguinte url:
 
 http://localhost/mvc-site/
+
+
+### SCREENSHOTS DA APLICAÇÃO FUNCIONANDO CORRETAMENTE
+***
+
+<h4> Tela Inicial </h4>
+
+<img width="600px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/tela1-exemplo.png" />
+
+<h4> Tela de uma Publicação </h4>
+
+<img width="600px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/tela5-exemplo.png" />
+
+<h4> Tela de Admin </h4>
+
+<img width="600px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/tela2-exemplo.png" />
+
+<h4> Tela de Criação de Publicação </h4>
+
+<img width="600px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/tela3-exemplo.png" />
+
+<h4> Tela de Sobre </h4>
+
+<img width="600px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/tela4-exemplo.png" />
