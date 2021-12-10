@@ -89,20 +89,20 @@ http://localhost/mvc-site/
 
 <h4> Tela Inicial </h4>
 
-<img width="600px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/tela1-exemplo.png" />
+<img width="800px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/tela1-exemplo.png" />
 
 <h4> Tela de uma Publicação </h4>
 
-<img width="600px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/tela5-exemplo.png" />
+<img width="800px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/tela5-exemplo.png" />
 
 <h4> Tela de Admin </h4>
 
-<img width="600px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/tela2-exemplo.png" />
+<img width="800px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/tela2-exemplo.png" />
 
 <h4> Tela de Criação de Publicação </h4>
 
-<img width="600px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/tela3-exemplo.png" />
+<img width="800px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/tela3-exemplo.png" />
 
 <h4> Tela de Sobre </h4>
 
-<img width="600px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/tela4-exemplo.png" />
+<img width="800px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/tela4-exemplo.png" />
