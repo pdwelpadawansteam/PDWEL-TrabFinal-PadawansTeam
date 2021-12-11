@@ -84,7 +84,7 @@ Depois de ter realizado todos os passos anteriores, para verificar o funcionamen
 http://localhost/mvc-site/
 
 
-### SCREENSHOTS DA APLICAÇÃO FUNCIONANDO CORRETAMENTE
+### SCREENSHOTS DA APLICAÇÃO FUNCIONANDO CORRETAMENTE NO DESKTOP
 ***
 
 <h4> Tela Inicial </h4>
@@ -106,3 +106,29 @@ http://localhost/mvc-site/
 <h4> Tela de Sobre </h4>
 
 <img width="800px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/tela4-exemplo.png" />
+
+
+### SCREENSHOTS DA APLICAÇÃO FUNCIONANDO CORRETAMENTE NO MOBILE
+***
+
+<h4> Tela Inicial </h4>
+
+<img width="250px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/mobile-1.jpeg" />
+<img width="250px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/mobile-2.jpeg" />
+
+<h4> Tela de uma Publicação </h4>
+
+<img width="250px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/mobile-3.jpeg" />
+<img width="250px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/mobile-4.jpeg" />
+
+<h4> Tela de Admin </h4>
+
+<img width="250px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/mobile-5.jpeg" />
+
+<h4> Tela de Criação de Publicação </h4>
+
+<img width="250px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/mobile-6.jpeg" />
+
+<h4> Tela de Sobre </h4>
+
+<img width="250px" src="https://github.com/pdwelpadawansteam/PDWEL-TrabFinal-PadawansTeam/blob/main/mvc-site/img/mobile-7.jpeg" />
